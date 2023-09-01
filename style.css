@@ -1,0 +1,567 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    list-style: none;
+    
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*=================================================================================================================*/
+/* 
+/* font-family: 'Satoshi', sans-serif;
+font-family: 'Chillax', sans-serif;
+font-family: 'Telma', cursive;
+font-family: 'Pencerio', cursive;
+font-family: 'Clash Grotesk', sans-serif; */
+
+/* 1. Background images, theme
+   2. General styling - body
+   2. Headings Typography - h2, h3, p
+   3. General links
+   4. Navbar - styling nav & links
+   5. Header
+   6. Footer
+   7. Media Queries
+    */
+
+/* =============================================================== */ 
+/* 1. Background images */
+
+
+/*=================================================================================================================*/
+/* 2. General Styling - body */
+/*=================================================================================================================*/
+body {
+    font-family: 'Eb Garamond', 'Verdana', 'Times New Roman', serif;
+    font-size: 1.2em;
+    line-height: 1.4;
+    text-align: left;
+    color: black;
+    margin-top: 1em;
+    padding: 1em;
+	background-color: #3E3E40
+
+}
+
+
+
+#separator {
+    background-color: black;
+    padding: 1px;
+    display: block;
+    margin-top: 90px;
+
+}
+
+#envelope {
+    background-color: yellow;
+    height: 500px;
+}
+
+.morning-greeting p, .afternoon-greeting p, .evening-greeting p {
+    padding-top: 0.4em;
+}
+
+/* toggle */
+
+
+.collapsible {
+    color: #2A304E;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    background: none;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .collapsible.active, .collapsible:hover {
+    background-color: #3d286a;
+    color: white;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: wheat;
+    color: black;
+  }
+  
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .collapsible.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  /* toggle */
+
+/* ============================================================================
+   3. Typography - h2 as h1 is a .png */
+@font-face {
+    font-family: JetBrains;
+    src: url("fonts/JetBrainsMono-Variable.ttf"), url("fonts/JetBrainsMono-VariableItalic.ttf");
+}
+
+i {
+	font-style: italic;
+}
+
+
+body {
+   font-family: JetBrains, Helvetica, sans-serif;
+   font-size: 1.2em;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 600;
+    margin-bottom: 5px;
+	display: block;
+	margin-left: 370px;
+	margin-top: 150px;
+  margin-bottom:80px;
+	
+}
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--palered);
+    width: 60%;
+	text-align: left;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+p {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--palered);
+    width: 70%;
+	text-align: left;
+	display: block;
+	margin: 0 auto;
+	margin-top: 200px;
+	
+}
+
+i {
+  font-style: italic;
+}
+
+/*=====================INTERACT==========================*/
+
+.morning-start, .afternoon-start, .evening-start {
+	display: block;
+}
+
+.hidden {
+	display: none !important;
+}
+
+
+/*================================================BG IMAGES UI====================================================*/
+button {
+  display: block;
+  margin: 0 auto;
+	background-color: white;
+}
+
+
+.logos {
+  min-width: 600px;
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 7em;
+  
+}
+
+.starts {
+  width: 60%;
+
+  margin: 0 auto;
+  display: block;
+  margin-top: 4em;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  
+}
+
+#start-innit {
+	background-image: url('images/start-innit.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+	background-color: transparent;
+  /* You can adjust the following properties as needed */
+  width: 950px;
+  height: 8.5rem; 
+/*	!Make responsive, the start button!*/
+}
+
+#start-logo {
+	background-image: url('images/start-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+	background-color: transparent;
+  /* You can adjust the following properties as needed */
+  width: 950px;
+  height: 8.5rem; 
+/*	!Make responsive, the start button!*/
+}
+[data-stat-type] {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+	  width: 70px;
+  height: 145px;
+  color:black;
+	font-family: JetBrains;
+	font-weight: 600;
+  font-size: 16px;
+  text-align: center; 
+  outline: none;
+  cursor: pointer;
+  border: none;
+	margin: 7px;
+	margin-top:4px;
+}
+
+/* Target specific stat types and apply different styles */
+[data-stat-type="coins"] {
+	background-image: url('images/icons/coins.png');
+}
+
+[data-stat-type="fitness"] {
+	background-image: url('images/icons/fitness.png');
+}
+
+[data-stat-type="energy"] {
+	background-image: url('images/icons/coffee.png');
+}
+
+[data-stat-type="speed"] {
+	background-image: url('images/icons/internet.png');
+}
+
+.undo {
+	background-image: url('images/undo-button.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  /* You can adjust the following properties as needed */
+  width: 20px;
+  height: 65px;
+  color:black;
+	font-family: JetBrains;
+	font-weight: 600;
+  font-size: 16px;
+  text-align: center; 
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.two-options-container, .four-options-container, .undo-restart-container {
+	display: flex;
+	margin-top: 100px;
+	
+}
+.undo-restart-container {
+  width: 200px;
+  position: fixed;
+  top: -75px;
+  right: 50px;
+  
+  
+}
+
+.stats-bar {
+  width: 260px;
+  position: fixed;
+  top: 15px;
+  left: 50px;
+  display: flex;
+  
+}
+.two-options {
+	border: none;
+	background-color: #1a292c;
+	font-family: JetBrains;
+	color: #06f7fe;
+	font-weight: 800;
+	font-size: 1.8em;
+	cursor: pointer;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	width: 280px;
+	height: 90px;
+	border-radius: 8px;
+  margin-top:30px;
+	
+}
+.two-options:hover, .four-options:hover {
+	background-color: #06f7fe;
+	color:#1a292c ;
+}
+
+.four-options {
+	border: none;
+	background-color: #1a292c;
+	font-family: JetBrains;
+	color: #06f7fe;
+	font-weight: 500;
+	font-size: 90%;
+	cursor: pointer;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	width: 250px;
+	height: 120px;
+	border-radius: 8px;
+  margin-top:80px;
+}
+/*=================================================================================================================*/
+/*LAYOUT*/
+/*=================================================================================================================*/
+main {
+  display: block;
+  margin: 0 auto;
+  width: 1290px;
+  height: 817px;
+  padding: 100px;
+	
+}
+.shop-img {
+	width: 70%;
+	height: 70%;
+}
+.flex-container {
+	display: flex;
+	align-content: center;
+  margin-top: 100px;
+}
+.flex-container p {
+	font-size: 1.1em;
+	padding: 1em;
+	font-weight: 500;
+	border: 1px solid black;
+	margin-left:1em;
+
+}
+/*============================================================================================================
+====MAP======================================================================================================
+==============================================================================================================*/
+.map {
+    display: flex;
+align-content: center;
+    justify-content: space-between;
+  align-items: center;
+    margin: 0 auto;
+        width: 1000px;
+    margin-top:5%;
+    flex-direction: column;
+}
+.stage {
+    display: flex;
+align-content: center;
+    justify-content: space-between;
+  align-items: center;
+}
+
+/*how do I stack Stages one on top of the other ?*/
+
+
+.map-buttons {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  list-style: none;
+  margin: 60px 120px 60px 120px;
+  background-image: url('images/icons/laptop.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: transparent;
+  /* You can adjust the following properties as needed */
+  width: 50px;
+  height: 50px; 
+}
+.locked{
+  background-image: url('images/icons/locked.png') !important;
+  cursor:not-allowed;
+}
+
+.shop{
+  background-image: url('images/icons/questionmark.png');
+  cursor:pointer;
+}
+
+.legend {
+	width: 330px;
+  position: absolute;
+  top: 350px;
+  right: 85px;
+  display: block;
+}
+.paths {
+	width: 870px;
+	display: block;
+	position: absolute;
+	top:130px;
+}
+
+/*=============NAVIGATION===========================*/
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    list-style: none;
+
+}
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 0.6em;
+    padding-top: 2.3em;
+    text-decoration: none;
+    color: #292F4D;
+}
+nav ul li a:hover {
+    
+    background-image: url(images/carspritewhite.svg);
+    background-repeat: no-repeat;
+    background-size: 2.5em;
+    background-position: top;
+    transition:ease-in-out .3s;
+
+}
+
+nav ul li a img{
+    display: block;
+    width: 2.5em;
+    margin: 0 auto;
+    
+}
+
+nav a:hover{
+    transition:all .2s;
+    color: #2A304E;
+    background-color: white;
+    text-decoration: underline #2A304E;
+}
+
+
+
+/*========================TYPING EFFECT===========================*/
+.typing-text {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(20, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}
+
+.typing-text::after {
+  content: "|";
+  animation: blink-caret .75s step-end infinite;
+}
+/*========================RESPONSIVE===============*/
+
+@media (max-width : 1400px ){
+   h1 {
+    font-size: 4em ;
+     margin-top: 1em;
+  }
+   h2 {
+    font-size:2em ;
+  }
+   p {
+    font-size: 1.5em;
+    margin-top: 5em;
+  }
+  .logos {
+    margin-top: 1em;
+  }
+  .starts{
+    margin-top: 1.3em;
+  }
+  .four-options {
+    font-size: 0.8em;
+    width: 200px;
+    height: 100px;
+  }
+  .four-options-container {
+    margin-top: 1.5em;
+  }
+  .shop-img {
+    width: 65%;
+    height: 65%;
+}
+.flex-container {
+    display: flex;
+    align-content: center;
+  margin-top: 100px;
+}
+.flex-container p {
+    font-size: .97em;
+    padding: 1em;
+    font-weight: 500;
+    border: 1px solid black;
+    margin-left:1em;
+
+}
+.two-options-container {
+  margin-top: 1.45em;
+}
+
+  }

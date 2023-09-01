@@ -1,0 +1,53 @@
+Energy +3
+A2
+Health +3
+B, A2
+Speed  +3
+Coins  +3
+A4
+
+
+Energy -3
+
+Health -3
+A, 
+Speed  -3
+
+Coins  -3
+A, 
+
+1.  Call Levels
+A1. Party Calling (yes -> minus coin, health)
+A2. Party Calling (no)
+A3. Party Calling (find artefact -> +energy)
+A4. Party Calling (pub -> elderly gentleman -> law firm -> il trosnesti in 3 ore -> +coin)
+
+B.  Basketball Calling in the morning 🏀(yes)
+B.  Basketball Calling in the morning 🏀(no)
+B.  Basketball Calling in the morning 🏀(...)
+B.  Basketball Calling in the morning 🏀(...)
+
+C.  Hang out in Westfield at Costa in the morning (yes -> your friend also brings their laptop -> speed)
+C.  Hang out in Westfield at Costa in the morning (no)
+C.  Hang out in Westfield at Costa in the morning (...)
+C.  Hang out in Westfield at Costa in the morning (...)
+
+
+D.  Brick Lane in the afternoon (yes -> minus coin)
+D.  Brick Lane in the afternoon (no)
+D.  Brick Lane in the afternoon (...)
+D.  Brick Lane in the afternoon (...)
+
+
+E.  Walk in the park in the afternoon (yes)
+E.  Walk in the park in the afternoon (no)
+E.  Walk in the park in the afternoon (artefact)
+E.  Walk in the park in the afternoon (...)
+
+F1.  Catsitting friend in the evening (yes)
+F2.  Catsitting friend in the evening (no)
+F3.  Catsitting friend in the evening (artefact)
+F4.  Catsitting friend in the evening (...)
+
+
+You arrive at the fuel station. The clerk pauses his handsfree conversation to look you in the eye for exactly half a second. As you make your way to the till, you stumble into an utility trolley. On it, you notice a scattering of shining artefacts with yellow tags on them. Protein Bars (first time only)
