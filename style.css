@@ -77,58 +77,10 @@ body {
 
 }
 
-#envelope {
-    background-color: yellow;
-    height: 500px;
-}
 
 .morning-greeting p, .afternoon-greeting p, .evening-greeting p {
     padding-top: 0.4em;
 }
-
-/* toggle */
-
-
-.collapsible {
-    color: #2A304E;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    background: none;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .collapsible.active, .collapsible:hover {
-    background-color: #3d286a;
-    color: white;
-  }
-  
-  /* Style the collapsible content. Note: hidden by default */
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: wheat;
-    color: black;
-  }
-  
-  .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: white;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .collapsible.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
-
-  /* toggle */
 
 /* ============================================================================
    3. Typography - h2 as h1 is a .png */
@@ -516,6 +468,122 @@ nav a:hover{
   animation: blink-caret .75s step-end infinite;
 }
 /*========================RESPONSIVE===============*/
+@media (max-width : 480px ) {
+  .logos {
+    min-width: 170px;
+    width: 100%;
+    margin-top: 7em;
+    
+  }
+  
+  #start-logo, #start-innit {
+    min-width: 100px;
+    width: 60%;
+    margin-top: 2em;
+    
+  }
+
+  .undo {
+    width: 20px;
+    height: 65px;
+    color:black;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 15px;
+    color:#32333a;
+  }
+  .two-options-container, .four-options-container, .undo-restart-container {
+    display: flex;
+    margin-top: 100px;
+    
+  }
+  .undo-restart-container {
+    width: 100px;
+    top: -75px;
+    right: 35px;
+    font-size: .3em;
+    
+  }
+  
+  .map {
+    margin: 0 auto;
+        width: 100%;
+    margin-top:25%;
+    flex-direction: column;
+}
+
+.map-buttons {
+  margin: 20px 50px 20px 50px;
+}
+
+  .stats-bar {
+    width: 180px;
+    position: fixed;
+    top: 15px;
+    left: 10px;
+    display: flex;
+    
+  }
+  [data-stat-type] {
+    height: 90px;
+  }
+  body {
+    font-family: JetBrains, Helvetica, sans-serif;
+    font-size: .7em;
+ }
+ 
+ 
+ .afternoon-start > h1:nth-child(1){
+  font-size: 3.4em;
+  margin: 1em auto;
+  display: block;
+ }
+
+ h2 {
+     font-size: .5em;
+     font-weight: 600;
+     margin-bottom: 5px;
+     color: var(--palered);
+     width: 80%;
+   text-align: left;
+   display: block;
+   margin: 0 auto;
+   
+ }
+ 
+ .afternoon-q-i > p:nth-child(1) {
+     font-size: 1.95em;
+     width: 85%;
+   
+ }
+
+ 
+ .two-options {
+	font-size: 1.8em;
+	width: 160px;
+	height: 80px;
+	border-radius: 15px;
+  margin-top:30px;
+	
+}
+.two-options:hover, .four-options:hover {
+	background-color: #06f7fe;
+	color:#1a292c ;
+}
+.four-options-container {
+  flex-direction: column;
+}
+.afternoon-q-i > div:nth-child(2) > button:nth-child(1){
+  margin-top: 25px;
+}
+.afternoon-q-i > div:nth-child(2) > button {
+	font-size: 1.5em;
+	width: 87%;
+	height: 100px;
+	border-radius: 8px;
+  margin-top:10px;
+}
+}
 
 @media (max-width : 1400px ){
    h1 {
