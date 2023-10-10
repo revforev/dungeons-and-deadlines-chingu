@@ -492,11 +492,10 @@ nav a:hover{
     font-size: 15px;
     color:#32333a;
   }
-  .two-options-container, .four-options-container, .undo-restart-container {
-    display: flex;
-    margin-top: 100px;
-    
-  }
+ .flex-container {
+  flex-direction: column;
+ }
+ 
   .undo-restart-container {
     width: 100px;
     top: -75px;
@@ -573,16 +572,49 @@ nav a:hover{
 .four-options-container {
   flex-direction: column;
 }
-.afternoon-q-i > div:nth-child(2) > button:nth-child(1){
+.afternoon-q-i > div:nth-child(2) > button:nth-child(1), .morning-q-i > div:nth-child(2) > button:nth-child(1), .evening-q-i > div:nth-child(2) > button:nth-child(1){
   margin-top: 25px;
 }
-.afternoon-q-i > div:nth-child(2) > button {
+.four-options-container > button {
 	font-size: 1.5em;
 	width: 87%;
 	height: 100px;
 	border-radius: 8px;
   margin-top:10px;
 }
+section > p {
+  font-size: 2.1em;
+  margin-bottom: 30px;
+}
+section > div:nth-child(1) > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+section > div:nth-child(1) > p, #Postlude > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+  font-size: 1.5em;
+  border: 1px solid black;
+  width: 90%;
+  margin: 0 auto;
+  font-weight: 300;
+
+}
+#Postlude > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+  border: none;
+  font-weight: 400;
+}
+#Postlude > div:nth-child(1) > img:nth-child(1) {
+  margin: 0 auto;
+  display: block;
+  width: 600px;
+}
+#Postlude > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1) {
+  font-size: 6em;
+  color: rgb(184, 59, 59);
+  font-weight: 900;
+
+}
+
 }
 
 @media (max-width : 1400px ){
