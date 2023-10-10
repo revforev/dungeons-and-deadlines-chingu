@@ -472,7 +472,6 @@ nav a:hover{
   .logos {
     min-width: 170px;
     width: 100%;
-    margin-top: 7em;
     
   }
   
@@ -484,7 +483,7 @@ nav a:hover{
   }
 
   .undo {
-    width: 20px;
+    width: 10px;
     height: 65px;
     color:black;
     font-family: monospace;
@@ -497,7 +496,7 @@ nav a:hover{
  }
  
   .undo-restart-container {
-    width: 100px;
+    width: 50px;
     top: -75px;
     right: 35px;
     font-size: .3em;
@@ -516,7 +515,7 @@ nav a:hover{
 }
 
   .stats-bar {
-    width: 180px;
+    width: 85px;
     position: fixed;
     top: 15px;
     left: 10px;
@@ -528,7 +527,7 @@ nav a:hover{
   }
   body {
     font-family: JetBrains, Helvetica, sans-serif;
-    font-size: .7em;
+    font-size: .6em;
  }
  
  
@@ -543,7 +542,7 @@ nav a:hover{
      font-weight: 600;
      margin-bottom: 5px;
      color: var(--palered);
-     width: 80%;
+     width: 90%;
    text-align: left;
    display: block;
    margin: 0 auto;
@@ -552,7 +551,7 @@ nav a:hover{
  
  .afternoon-q-i > p:nth-child(1) {
      font-size: 1.95em;
-     width: 85%;
+     width: 90%;
    
  }
 
@@ -585,6 +584,7 @@ nav a:hover{
 section > p {
   font-size: 2.1em;
   margin-bottom: 30px;
+  width: 90%;
 }
 section > div:nth-child(1) > img {
   width: 100%;
@@ -592,9 +592,9 @@ section > div:nth-child(1) > img {
   display: block;
 }
 section > div:nth-child(1) > p, #Postlude > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
-  font-size: 1.5em;
-  border: 1px solid black;
-  width: 90%;
+  font-size: 1.4em;
+  border: none;
+  width: 95%;
   margin: 0 auto;
   font-weight: 300;
 
@@ -614,7 +614,20 @@ section > div:nth-child(1) > p, #Postlude > div:nth-child(1) > div:nth-child(2) 
   font-weight: 900;
 
 }
+#Briefing > p:nth-child(1) {
+  margin-top: 15%;
+}
+#logo-paths, #logo-strokes {
+  margin-top: 50%;
+}
+#Stats-i > div > p {
+  font-size: 2em;
+  width: 90%;
+}
 
+section {
+  margin-top: 10%;
+}
 }
 
 @media (max-width : 1400px ){
