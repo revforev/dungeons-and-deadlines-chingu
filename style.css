@@ -468,7 +468,7 @@ nav a:hover{
   animation: blink-caret .75s step-end infinite;
 }
 /*========================RESPONSIVE===============*/
-@media (max-width : 480px ) {
+@media (max-width : 780px ) {
   .logos {
     min-width: 170px;
     width: 100%;
@@ -477,8 +477,8 @@ nav a:hover{
   
   #start-logo, #start-innit {
     min-width: 100px;
-    width: 60%;
-    margin-top: 2em;
+    width: 50%;
+    margin-top: 1em;
     
   }
 
@@ -498,7 +498,7 @@ nav a:hover{
   .undo-restart-container {
     width: 50px;
     top: -75px;
-    right: 35px;
+    right: 10px;
     font-size: .3em;
     
   }
@@ -516,7 +516,7 @@ nav a:hover{
 
   .stats-bar {
     width: 85px;
-    position: fixed;
+    position: absolute;
     top: 15px;
     left: 10px;
     display: flex;
@@ -618,7 +618,8 @@ section > div:nth-child(1) > p, #Postlude > div:nth-child(1) > div:nth-child(2) 
   margin-top: 15%;
 }
 #logo-paths, #logo-strokes {
-  margin-top: 50%;
+  margin-top: 40%;
+  width: 105%;
 }
 #Stats-i > div > p {
   font-size: 2em;
@@ -629,7 +630,26 @@ section {
   margin-top: 10%;
 }
 }
-
+@media (min-width:520px) and (max-width : 780px) {
+  #logo-paths, #logo-strokes {
+    margin-top: 2%;
+    width: 95%;
+  }
+  .map {
+    margin-top: 12%;
+  }
+  #Briefing > p:nth-child(1) {
+    margin-top: 5%;
+  }
+  section > div:nth-child(1) > p, #Postlude > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+    font-size: 1.5em;
+    width: 95%;
+  
+  }
+  section {
+    margin-top: -2%;
+  }
+}
 @media (max-width : 1400px ){
    h1 {
     font-size: 4em ;
