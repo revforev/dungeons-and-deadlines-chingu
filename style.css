@@ -505,7 +505,7 @@ nav a:hover{
   
   .map {
     margin: 0 auto;
-        width: 100%;
+    width: 100%;
     margin-top:25%;
     flex-direction: column;
 }
@@ -520,18 +520,20 @@ nav a:hover{
     top: 15px;
     left: 10px;
     display: flex;
-    
   }
+
   [data-stat-type] {
-    height: 90px;
+    height: 107px;
   }
+
+
+
   body {
     font-family: JetBrains, Helvetica, sans-serif;
     font-size: .6em;
  }
  
- 
- .afternoon-start > h1:nth-child(1){
+h1{
   font-size: 3.4em;
   margin: 1em auto;
   display: block;
@@ -549,8 +551,9 @@ nav a:hover{
    
  }
  
- .afternoon-q-i > p:nth-child(1) {
-     font-size: 1.95em;
+ .q-is > p {
+     margin-top: 10px;
+     font-size: 1.85em;
      width: 90%;
    
  }
@@ -615,7 +618,8 @@ section > div:nth-child(1) > p, #Postlude > div:nth-child(1) > div:nth-child(2) 
 
 }
 #Briefing > p:nth-child(1) {
-  margin-top: 15%;
+  margin-top: 10px;
+  font-size: 1.85em;
 }
 #logo-paths, #logo-strokes {
   margin-top: 40%;
